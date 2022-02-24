@@ -16,4 +16,9 @@ class CiTestApplicationTests {
         assert(false)
     }
 
+    @Test
+    fun `한글`() {
+        assert(false)
+    }
+
 }
