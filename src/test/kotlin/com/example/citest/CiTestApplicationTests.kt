@@ -20,5 +20,4 @@ class CiTestApplicationTests {
     fun `한글`() {
         assert(false)
     }
-
 }
