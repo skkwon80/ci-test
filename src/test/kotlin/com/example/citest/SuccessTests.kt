@@ -13,6 +13,6 @@ class SuccessTests {
 
     @Test
     fun `성공`() {
-        assert(false)
+        assert(true)
     }
 }
