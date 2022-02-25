@@ -10,4 +10,5 @@ class CiTestApplicationTests2 {
     fun trueTest() {
         assert(true)
     }
+
 }
