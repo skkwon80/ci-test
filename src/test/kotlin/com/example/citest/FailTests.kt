@@ -4,20 +4,15 @@ import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class CiTestApplicationTests {
+class FailTests {
 
     @Test
-    fun trueTest() {
-        assert(true)
-    }
-
-    @Test
-    fun falseTest() {
+    fun `fail`() {
         assert(false)
     }
 
     @Test
-    fun `한글`() {
+    fun `실패`() {
         assert(false)
     }
 }
