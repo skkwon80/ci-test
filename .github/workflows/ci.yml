@@ -1,12 +1,12 @@
 name: CI Test
 
 on:
-  push:
-    branches:
-      - 'feature/*'
+#  push:
+#    branches:
+#      - 'feature/*'
   pull_request:
     branches:
-      - 'feature/*'
+      - 'master'
 
 jobs:
   build:
