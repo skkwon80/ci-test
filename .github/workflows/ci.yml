@@ -1,15 +1,12 @@
 name: CI Test
 
 on:
+#  push:
+#    branches:
+#      - 'feature/*'
   pull_request:
     branches:
       - 'master'
-  push:
-    branches:
-      - 'feature/*'
-#    paths:
-#      - 'klet-backend-blockchain-api/**'
-#      - 'klet-backend-common/**'
 
 jobs:
   build:
