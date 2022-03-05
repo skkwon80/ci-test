@@ -1,9 +1,9 @@
-name: CI Test
+name: CI Test 1
 
 on:
   pull_request:
-#    paths:
-#      -
+    paths:
+      - 'project1/**'
 
 jobs:
   build:
