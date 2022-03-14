@@ -1,9 +1,8 @@
 name: CI Test 1
 
 on:
-  pull_request:
-    paths:
-      - 'project1/**'
+  push:
+    branches: [ master ]
 
 jobs:
   build:
@@ -21,10 +20,7 @@ jobs:
         run: chmod +x gradlew
 
       - name: Build with Gradle
-        run: ./gradlew build # -x test
-
-      #- name: Test with Gradle
-      #  run: SPRING_PROFILES_ACTIVE=[test] ./gradlew test
+        run: ./gradlew build
 
       - name: Publish Unit Test Results
         uses: EnricoMi/publish-unit-test-result-action@v1
