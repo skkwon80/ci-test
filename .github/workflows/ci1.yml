@@ -34,6 +34,7 @@ jobs:
         run: |
           ./gradlew build --no-daemon
           cd demo
+          chmod +x gradlew
           ./gradlew build --no-daemon
           cd ..
 
