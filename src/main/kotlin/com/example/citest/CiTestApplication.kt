@@ -7,5 +7,6 @@ import org.springframework.boot.runApplication
 class CiTestApplication
 
 fun main(args: Array<String>) {
+
     runApplication<CiTestApplication>(*args)
 }
