@@ -8,4 +8,5 @@ class CiTestApplication
 
 fun main(args: Array<String>) {
     runApplication<CiTestApplication>(*args)
+
 }
