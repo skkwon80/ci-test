@@ -31,7 +31,7 @@ jobs:
         run: chmod +x gradlew
 
       - name: Build with Gradle
-        run: ./gradlew build --no-daemon --debug
+        run: ./gradlew build --no-daemon
 
       - name: Publish Unit Test Results
         uses: EnricoMi/publish-unit-test-result-action@v1
