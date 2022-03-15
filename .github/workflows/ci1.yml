@@ -33,7 +33,7 @@ jobs:
       - name: Build with Gradle
         run: |
           ./gradlew build --no-daemon
-          cd /demo
+          cd demo
           ./gradlew build --no-daemon
           cd ..
 
