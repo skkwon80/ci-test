@@ -35,6 +35,7 @@ jobs:
           ./gradlew build --no-daemon
 
       - name: Build with Gradle2
+        if: ${{ always() }}
         run: |
           cd demo
           chmod +x gradlew
