@@ -16,6 +16,7 @@ jobs:
           java-version: 11
           cache: gradle
 
+
       #      - uses: actions/cache@v2
       #        with:
       #          path: |
@@ -24,6 +25,8 @@ jobs:
       #          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
       #          restore-keys: |
       #            ${{ runner.os }}-gradle-
+      - name: "detekt"
+        uses: natiginfo/action-detekt-all@1.20.0-RC1
 
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
