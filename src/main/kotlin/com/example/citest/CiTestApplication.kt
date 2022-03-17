@@ -12,5 +12,5 @@ fun main(args: Array<String>) {
 }
 
 fun Test() {
-
+    val a = ""
 }
