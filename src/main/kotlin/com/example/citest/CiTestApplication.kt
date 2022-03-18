@@ -11,6 +11,5 @@ fun main(args: Array<String>) {
     runApplication<CiTestApplication>(*args)
 }
 
-fun Test() {
-    val a = ""
+fun test() {
 }
