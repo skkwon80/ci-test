@@ -11,6 +11,6 @@ fun main(args: Array<String>) {
     runApplication<CiTestApplication>(*args)
 }
 
-fun test() {
+fun test()  {
     println(1)
 }
